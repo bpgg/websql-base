@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>SQL必知必会</title>
+</head>
+
+<body>
+    <div id="status" name="status">WebSQL Test</div>
+
+    <script type="text/javascript">
+        if (!window.openDatabase) {
+            alert('浏览器不支持WebSQL');
+        }
+
+        var db = window.openDatabase('websql_demo', '1.0', '尝试使用websql', 1024 * 1024);                               
+    </script>
+</body>
+
+</html>
