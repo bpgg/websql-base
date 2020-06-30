@@ -26,3 +26,9 @@ db.transaction(function (tx) {
     tx.executeSql('INSERT INTO heros (id, name, hp_max, mp_max, role_main) VALUES (10000, "夏侯惇", 7350, 1746, "坦克")');
 });
 ```
+
++ 执行语句
+
+```js
+executeSql(sqlText);
+```
